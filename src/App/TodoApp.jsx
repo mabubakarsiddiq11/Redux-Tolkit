@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { useDispatch, useSelector } from "react-redux";
-import { addTodo, delTodo } from "../Redux/Features/TodoSlice";
+import { addTodo, delTodo } from "../Redux/FeatureSlice/TodoSlice";
 import { MdDeleteForever } from "react-icons/md";
 
 function TodoApp() {

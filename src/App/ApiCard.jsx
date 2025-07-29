@@ -1,7 +1,7 @@
 import React from "react";
 import { useEffect } from "react";
 import { useDispatch, useSelector } from "react-redux";
-import { fetchApi } from "../Redux/Features/fetchSlice";
+import { fetchApi } from "../Redux/FeatureSlice/fetchSlice";
 
 function ApiCard() {
   const dispatch = useDispatch();

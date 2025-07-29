@@ -1,7 +1,7 @@
 import { configureStore } from "@reduxjs/toolkit";
-import counterSlice from "./Features/CounterSlice";
-import todoSlice from './Features/TodoSlice'
-import fetchSlice from './Features/fetchSlice'
+import counterSlice from "./FeatureSlice/CounterSlice";
+import todoSlice from './FeatureSlice/TodoSlice'
+import fetchSlice from './FeatureSlice/fetchSlice'
 import { persistStore, persistReducer } from "redux-persist";
 import storage from "redux-persist/lib/storage";
 
