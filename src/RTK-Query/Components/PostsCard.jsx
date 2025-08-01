@@ -1,13 +1,9 @@
 import AddPost from "./AddPost";
-import { useGetPostsQuery } from "../Feature/apiSlice";
 
 
-function PostsCard() {
+function PostsCard({posts, isLoading}) {
 
-    const {data : posts, isLoading, iserror} = useGetPostsQuery()
-    console.log("Data", posts)
-    console.log("Loading", isLoading)
-    console.log("Error", iserror)
+   
   return (
     <div>
       <AddPost />
